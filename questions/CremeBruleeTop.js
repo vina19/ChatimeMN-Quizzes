@@ -9,8 +9,8 @@ let CremeBruleeQuestions = [
     },
     {
         "question": "What is the recipe for Regular size with topping Mango Jam Creme Brulee?",
-        "option1": "1 spoons of Mango Jam in serving cup, 60% ice, 0.4 sugar, 400 line of milk, and up to 500 line creme brulee. ",
-        "option2": "2 spoons of Mango Jam in serving cup, 60% ice, 0.3 sugar, 400 line of milk, and up to 500 line creme brulee. ",
+        "option1": "1 spoons of Mango Jam in serving cup, 60% ice, 0.4 sugar, 400 line of milk, and up to 500 line creme brulee.",
+        "option2": "2 spoons of Mango Jam in serving cup, 60% ice, 0.3 sugar, 400 line of milk, and up to 500 line creme brulee.",
         "option3": "2 spoons of Mango Jam in serving cup, 60% ice, 0.4 sugar, 400 line of milk, and up to 500 line creme brulee.",
         "option4": "1 spoons of Mango Jam in serving cup, 60% ice, 0.3 sugar, 400 line of milk, and up to 500 line creme brulee.",
         "answer": 4
@@ -68,32 +68,32 @@ let CremeBruleeQuestions = [
         "question": "What is best to describe what is Ube Latte Creme Brulee to the customer?",
         "option1": "Sweet purple yam paste around the cup with whole milk and creme brulee on the top.",
         "option2": "Taro paste around the cup with whole milk and creme brulee on the top.",
-        "option3": "",
-        "option4": "",
+        "option3": "Sweet purple yam drink with creme brulee on the top.",
+        "option4": "Taro milk tea with creme brulee on the top.",
         "answer": 1
     },
     {
-        "question": "What is the recipe for Large size Ube Latte Creme Brulee?",
-        "option1": "",
-        "option2": "",
-        "option3": "",
-        "option4": "",
+        "question": "What is the recipe for Large size with topping Ube Latte Creme Brulee?",
+        "option1": "Smear 1.5 ube paste inside around the cup, 50% ice, 0.8 sugar, 400 line whole milk, and up to 500 line creme brulee.",
+        "option2": "Smear 2 ube paste inside around the cup, 60% ice, 1 sugar, 400 line whole milk, and up to 500 line creme brulee.",
+        "option3": "Smear 1.5 ube paste inside around the cup, 60% ice, 1 sugar, 400 line whole milk, and up to 500 line creme brulee.",
+        "option4": "Smear 2 ube paste inside around the cup, 50% ice, 0.8 sugar, 400 line whole milk, and up to 500 line creme brulee.",
         "answer": 2
     },
     {
-        "question": "What is the recipe for Regular size Tiger Latte Creme Brulee?",
-        "option1": "",
-        "option2": "",
-        "option3": "",
-        "option4": "",
+        "question": "What is the recipe for Regular size with topping Tiger Sugar Creme Brulee?",
+        "option1": "Drizzle brown sugar inside the rim of cup, 60% ice in the cup, 500 line of whole milk, and up to 500 line creme brulee.",
+        "option2": "Drizzle brown sugar inside the rim of cup, 50% ice in the cup, 500 line of whole milk, and up to 500 line creme brulee.",
+        "option3": "Drizzle brown sugar inside the rim of cup, 50% ice in the cup, 425 line of whole milk, and up to 500 line creme brulee.",
+        "option4": "Drizzle brown sugar inside the rim of cup, 60% ice in the cup, 425 line of whole milk, and up to 500 line creme brulee.",
         "answer": 4
     },
     {
-        "question": "What is the recipe for Large size Mango Jam Creme Brulee?",
-        "option1": "",
-        "option2": "",
-        "option3": "",
-        "option4": "",
+        "question": "What is the recipe for Large size with topping Mango Jam Creme Brulee?",
+        "option1": "1.5 spoons of Mango Jam in serving cup, 60% ice, 0.3 sugar, 400 line of milk, and up to 500 line creme brulee.",
+        "option2": "2 spoons of Mango Jam in serving cup, 60% ice, 0.4 sugar, 400 line of milk, and up to 500 line creme brulee.",
+        "option3": "1.5 spoons of Mango Jam in serving cup, 60% ice, 0.4 sugar, 400 line of milk, and up to 500 line creme brulee.",
+        "option4": "2 spoons of Mango Jam in serving cup, 60% ice, 0.3 sugar, 400 line of milk, and up to 500 line creme brulee.",
         "answer": 3
     }
 ];
