@@ -10,9 +10,9 @@ let MilkTeaQuestions = [
     {
         "question": "What is the recipe for Large size Signature Milk Tea with Topping?",
         "option1": "60% ice, 0.8 large side of sugar machine, sig milk tea to 700 line.",
-        "option2": "80% ice, 1.0 large side of sugar machine, sig milk tea to 500 line.",
+        "option2": "80% ice, 1.0 regular side of sugar machine, sig milk tea to 500 line.",
         "option3": "60% ice, 1.0 large side of sugar machine, sig milk tea to 500 line.",
-        "option4": "80% ice, 0.8 large side of sugar machine, sig milk tea to 700 line.",
+        "option4": "80% ice, 0.8 regular side of sugar machine, sig milk tea to 700 line.",
         "answer": 2
     },
     {
@@ -67,15 +67,6 @@ let MilkTeaQuestions = [
         "option3": "Vanilla flavor, thick and grainy texture",
         "option4": "Vanilla flavor, watery and grainy texture",
         "answer": 3
-    },
-
-    {
-        "question": "When making an Iced and hot Coconut Milk Tea, what temperature do you heat the tea to?",
-        "option1": "Iced: 104F and Hot: 140F",
-        "option2": "Iced: 150F and Hot: 170F",
-        "option3": "Iced: 110F and Hot: 150F",
-        "option4": "Iced: 140F and Hot: 170F",
-        "answer": 1
     },
 
     {

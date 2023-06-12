@@ -27,8 +27,8 @@ let SmoothieQuestions = [
     {
         "question": "How do you describe the texture of our smoothie to the customers?",
         "option1": "Watery",
-        "option2": "Thicker",
-        "option3": "Slushy",
+        "option2": "Thick/Slushy",
+        "option3": "Liquid",
         "option4": "Icy",
         "answer": 2
     },

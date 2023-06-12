@@ -50,10 +50,10 @@ let FruitTeaQuestions = [
     },
     {
         "question": "How would you describe the flavor of Lychee to a customer?",
-        "option1": "Heavy, delicate, sour, and fragnant.",
-        "option2": "Savory, delicate, sweet, and fragnant.",
-        "option3": "Light, delicate, sweet, and fragnant.",
-        "option4": "Light, delicate, bitter, and fragnant.",
+        "option1": "Heavy, delicate, sour, and fragrant.",
+        "option2": "Savory, delicate, sweet, and fragrant.",
+        "option3": "Light, delicate, sweet, and fragrant.",
+        "option4": "Light, delicate, bitter, and fragrant.",
         "answer": 4
     },
     {
