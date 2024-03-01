@@ -1,48 +1,60 @@
 let CremeBruleeQuestions = [
     {
-        "question": "Which of these statements is most true?",
-        "option1": "We offer all drinks on the menu iced or hot.",
-        "option2": "We offer most milk teas, fresh teas, and most tea lattes iced or hot.",
-        "option3": "We offer all milk teas iced or hot.",
-        "option4": "We offer fruit teas hot.",
+        "question":"Which of these statements is most true?",
+        "option1":"We offer all drinks on the menu iced or hot.",
+        "option2":"We offer most milk teas, fresh teas, and most tea lattes iced or hot.",
+        "option3":"We offer all milk teas iced or hot.",
+        "option4":"We offer fruit teas hot.",
         "answer": 2
     },
     {
-        "question": "Describe the difference between matcha and jasmine green tea.",
-        "option1": "Matcha is more bitter than jasmine green tea.",
-        "option2": "Matcha is more floral than jasmine green tea.",
-        "option3": "Jasmine green tea is more earthy flavor than matcha.",
-        "option4": "Jasmine green tea is more floral flavor than matcha.",
+        "question":"Describe the difference between matcha and jasmine green tea.",
+        "option1":"Matcha is more bitter than jasmine green tea.",
+        "option2":"Matcha is more floral than jasmine green tea.",
+        "option3":"Jasmine green tea is more earthy flavor than matcha.",
+        "option4":"Jasmine green tea is more floral flavor than matcha.",
         "answer": 4
     },
     {
-        "question": "Which of these statements is most true?",
-        "option1": "Our Non- dairy creamer powder is vegan and lactose free.",
-        "option2": "Our Non-dairy creamer powder is lactose friendly, but is made with a 2% dairy extract (Whey protein)",
-        "option3": "Our Non-dairy creamer powder is lactose and vegan friendly.",
-        "option4": "Our Non-dairy creamer powder is lactose and vegan.",
+        "question":"Which of these statements is most true?",
+        "option1":"Our Non- dairy creamer powder is vegan and lactose free.",
+        "option2":"Our Non-dairy creamer powder is lactose friendly, but is made with a 2% dairy extract (Whey protein)",
+        "option3":"Our Non-dairy creamer powder is lactose and vegan friendly.",
+        "option4":"Our Non-dairy creamer powder is lactose and vegan.",
         "answer": 2 
     },
     {
-        "question": "What is our blue tea made with?", 
-        "option1": "Butterfly pea flowers", 
-        "option2": "Spirulina",
-        "option3": "Hibiscus", 
-        "option4": "Blue food coloring", 
+        "question":"What is our blue tea made with?", 
+        "option1":"Butterfly pea flowers", 
+        "option2":"Spirulina",
+        "option3":"Hibiscus", 
+        "option4":"Blue food coloring", 
         "answer": 1
     },
-5.	Which group of drinks are all caffeine free? 
-A. Dragon breeze, Hawaiian fruit tea, Horchata milk tea, and Mango frosty 
-B. Violet breeze, Tiger latte, Taro milk tea, and Strawberry frosty 
-C. Ube crème brulee, Matcha latte, Cookies and Cream milk tea, and Chai frosty 
-      Answer: B 
-6.	True or false? All our jellies are vegan. 
-Answer: True- all our jellies are made with agar-agar, a plant-based gelatin substitute. 
-7.	Select the answer that describes our signature milk tea best. 
-A.	Black tea with a non-dairy creamer powder. 
-B.	Black tea with a brown sugar flavor. 
-C.	A robust royal black tea with a proprietary non- dairy creamer blend. 
-Answer: C 
+    {
+        "question":"Which group of drinks are all caffeine free?", 
+        "option1":"Dragon breeze, Hawaiian fruit tea, Horchata milk tea, and Mango frosty", 
+        "option2":"Violet breeze, Tiger latte, Taro milk tea, and Strawberry frosty", 
+        "option3":"Ube crème brulee, Matcha latte, Cookies and Cream milk tea, and Chai frosty",
+        "option4":"Strawberry lemon fizz, Tiger latte, Taro milk tea, and Chai frosty",
+        "answer": 2
+    }, 
+    {
+        "question":"Which of these statements is most true?",
+        "option1":"All our jellies are not vegan friendly.",
+        "option2":"All our jellies contain dairy.",
+        "option3":"All our jellies are made with agar, a plant-based gelatin substitute.",
+        "option4":"All our jellies contain gelatin.",
+        "answer":3 
+    },
+    {
+        "question":"Select the answer that describes our signature milk tea best.", 
+        "option1":"Black tea with a non-dairy creamer powder.",
+        "option2":"Black tea with a brown sugar flavor.", 
+        "option3":"A robust royal black tea with a proprietary non- dairy creamer blend.",
+        "option4":"Black tea mix with a non-dairy creamer powder and brown sugar.", 
+        "answer": 3
+    },
 8.	A customer returns with their drink, saying it doesn’t taste right. What is the best solution following Niko Niko policies? 
 A.	Refund the amount for their drink. 
 B.	After disposing of the original drink, offer to remake it for the customer or any other drink of their choosing. 
