@@ -49,15 +49,15 @@ function setQuestion(qCount, rand) {
 function changeProgressBar(qCount) {
     progress.innerHTML = "Question " + (qCount+1) + " of 10";
     tracker = $("no" + (qCount+1));
-    tracker.style.backgroundColor = "#ff6600";
+    tracker.style.backgroundColor = "#a04e29";
 }
 
 //Function to make the button option color back to normal
 function defaultOptionColors() {
-    button1.style.backgroundColor = "#b366ff";
-    button2.style.backgroundColor = "#b366ff";
-    button3.style.backgroundColor = "#b366ff";
-    button4.style.backgroundColor = "#b366ff";
+    button1.style.backgroundColor = "#e2cbf9";
+    button2.style.backgroundColor = "#e2cbf9";
+    button3.style.backgroundColor = "#e2cbf9";
+    button4.style.backgroundColor = "#e2cbf9";
 }
 
 //Get question to display randomly.
@@ -83,15 +83,15 @@ function getQuestion(qCount, rand) {
 //3. Create functions we need - setting tracker, setting result, calculating and display final score 
 function setCorrect() {
 	score++;
-	tracker.style.backgroundColor = "#009900";
+	tracker.style.backgroundColor = "#7cfc00";
 }
 
 function setWrong() {
-	tracker.style.backgroundColor = "#cc0000";
+	tracker.style.backgroundColor = "#fb5a44";
 }
 
 function finalScore() {
-	if(score > 5) {
+	if(score > 8) {
 		result.innerHTML = "Congrats! You passed! <br/> Your score is " + score + "!";
 	}
 	else {
@@ -140,7 +140,7 @@ function startTimer(secs, elem) {
 		//call the next question or set the result page
 		
 		//no option selected - wrong 
-		if(button1.style.backgroundColor !== "rgb(26, 255, 26)" && button2.style.backgroundColor !== "rgb(26, 255, 26)" && button3.style.backgroundColor !== "rgb(26, 255, 26)" && button4.style.backgroundColor !== "rgb(26, 255, 26)") {
+		if(button1.style.backgroundColor !== "rgb(225, 243, 64)" && button2.style.backgroundColor !== "rgb(225, 243, 64)" && button3.style.backgroundColor !== "rgb(225, 243, 64)" && button4.style.backgroundColor !== "rgb(225, 243, 64)") {
 			//if we are at the last question
 			if(questionCount == 9) {
 				setWrong();
@@ -197,25 +197,25 @@ option4.addEventListener("click",optionSelect);
 function optionSelect(e) {
 	//get parent element and change background color 
 	var parentEl = e.target.parentElement;
-	parentEl.style.backgroundColor = "#1aff1a";
+	parentEl.style.backgroundColor = "#e1f340";
 	
 	//switch statement - the other buttons' colors go back to default
 	switch(e.target.id) {
-		case "option1": button2.style.backgroundColor = "#b366ff";
-						button3.style.backgroundColor = "#b366ff";
-						button4.style.backgroundColor = "#b366ff";
+		case "option1": button2.style.backgroundColor = "#e2cbf9";
+						button3.style.backgroundColor = "#e2cbf9";
+						button4.style.backgroundColor = "#e2cbf9";
 						break;
-		case "option2": button1.style.backgroundColor = "#b366ff";
-						button3.style.backgroundColor = "#b366ff";
-						button4.style.backgroundColor = "#b366ff";
+		case "option2": button1.style.backgroundColor = "#e2cbf9";
+						button3.style.backgroundColor = "#e2cbf9";
+						button4.style.backgroundColor = "#e2cbf9";
 						break;
-		case "option3": button1.style.backgroundColor = "#b366ff";
-						button2.style.backgroundColor = "#b366ff";
-						button4.style.backgroundColor = "#b366ff";
+		case "option3": button1.style.backgroundColor = "#e2cbf9";
+						button2.style.backgroundColor = "#e2cbf9";
+						button4.style.backgroundColor = "#e2cbf9";
 						break;
-		case "option4": button1.style.backgroundColor = "#b366ff";
-						button2.style.backgroundColor = "#b366ff";
-						button3.style.backgroundColor = "#b366ff";
+		case "option4": button1.style.backgroundColor = "#e2cbf9";
+						button2.style.backgroundColor = "#e2cbf9";
+						button3.style.backgroundColor = "#e2cbf9";
 						break;
 	}
 	
@@ -229,8 +229,8 @@ submit.addEventListener("click",nextQuestion);
 function nextQuestion() {
 	//no option selected
 	console.log(button1.style.backgroundColor);
-	console.log(button1.style.backgroundColor !== "rgb(26, 255, 26)");
-	if(button1.style.backgroundColor !== "rgb(26, 255, 26)" && button2.style.backgroundColor !== "rgb(26, 255, 26)" && button3.style.backgroundColor !== "rgb(26, 255, 26)" && button4.style.backgroundColor !== "rgb(26, 255, 26)") {
+	console.log(button1.style.backgroundColor !== "rgb(225, 243, 64)");
+	if(button1.style.backgroundColor !== "rgb(225, 243, 64)" && button2.style.backgroundColor !== "rgb(225, 243, 64)" && button3.style.backgroundColor !== "rgb(225, 243, 64)" && button4.style.backgroundColor !== "rgb(225, 243, 64)") {
 		alert("Please select an option");
 		return;
 	}
