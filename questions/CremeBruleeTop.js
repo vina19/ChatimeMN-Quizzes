@@ -53,47 +53,70 @@ let CremeBruleeQuestions = [
         "option2":"Black tea with a brown sugar flavor.", 
         "option3":"A robust royal black tea with a proprietary non- dairy creamer blend.",
         "option4":"Black tea mix with a non-dairy creamer powder and brown sugar.", 
-        "answer": 3
+        "answer":3
     },
-8.	A customer returns with their drink, saying it doesn’t taste right. What is the best solution following Niko Niko policies? 
-A.	Refund the amount for their drink. 
-B.	After disposing of the original drink, offer to remake it for the customer or any other drink of their choosing. 
-C.	Tell them to get back in line and reorder a drink they do like. 
-Answer: B 
-9.	Do we offer milk alternatives? 
-A.	No, we do not offer milk substitutes. All our milk teas are made with a non-dairy creamer powder. 
-B.	Yes, any milk tea or tea latte can be made with an almond milk substitute. 
-C.	Yes, we offer an almond milk substitute for all our tea lattes. 
-Answer: C 
-10.	Select the answer that best describes the Hawaiian fruit tea. 
-A.	Passion fruit, Peach, Strawberry and a bit of black tea. Tastes like a fruit punch. 
-B.	Tart and tropical flavors. Made with water. 
-C.	Coconut, strawberry, and mango with a bit of black tea. Tastes like a fruit punch. 
-Answer: A 
-11.	What do we use as a sweetener? 
-A. Honey 
-B. Fructose syrup 
-C. High fructose corn syrup 
-Answer: B 
-12.	A customer has dietary restraints and cannot have sugar. Which of these drinks is a good option for them? 
-A.	Signature milk tea, 0% sugar level. 
-B.	Mango green tea, 0% sugar level.
-C.	Black tea latte, 0% sugar level. 
-Answer: C 
-13.	Do you need a shift lead to approve a refund for any reason? 
-A.	If you know how to, you can just process the refund. 
-B.	We do not offer refunds. 
-C.	Yes, a shift lead will need to approve any refunds made. 
-Answer: C 
-14.	Do we allow customers to mix flavors? 
-A.	Yes, a customer can pick as many different flavors as they’d like to add to any drink. 
-B.	No, we only offer drinks that are available on our menu. 
-C.	If you know the customer is a regular, you can let them mix any flavors they’d like. 
-Answer: B 
-15.	Select the answer that has our tea options listed in order of most caffeine to least caffeine. 
-A.	Signature, black tea, green tea. 
-B.	Black tea, signature, green tea. 
-C.	Green tea, black tea, signature. 
-Answer: A 
-
+    {
+        "question":"A customer returns with their drink, saying it doesn’t taste right. What is the best solution following Niko Niko policies?", 
+        "option1":"Refund the amount for their drink.",
+        "option2":"Ask them which drink they do like instead and have them pay for it.", 
+        "option3":"Tell them to get back in line and reorder a drink they do like.",
+        "option4":"After disposing of the original drink, offer to remake it for the customer or any other drink of their choosing.", 
+        "answer":4
+    },
+    {
+        "question":"Do we offer milk alternatives?",
+        "option1":"Yes, we offer a coconut milk substitute for all our tea lattes.",
+        "option2":"Yes, any milk tea or tea latte can be made with an almond milk substitute.",
+        "option3":"Yes, we offer an almond milk substitute for all our tea lattes.",
+        "option4":"No, we do not offer milk substitutes. All our milk teas are made with a non-dairy creamer powder.", 
+        "answer":3
+    }, 
+    {
+        "question":"Select the answer that best describes the Hawaiian fruit tea.",
+        "option1":"Pineapple, Strawberry, and Mango with a bit of black tea. Tastes like a fruit punch",
+        "option2":"Tart and tropical flavors. Made with water.",
+        "option3":"Coconut, Strawberry, and Mango with a bit of black tea. Tastes like a fruit punch.",
+        "option4":"Passion fruit, Peach, Strawberry and a bit of black tea. Tastes like a fruit punch.",
+        "answer":4
+    },
+    {
+        "question":"What do we use as a sweetener?",
+        "option1":"Honey",
+        "option2":"Fructose syrup", 
+        "option3":"High fructose corn syrup",
+        "option4":"Brown sugar",
+        "answer":2
+    },
+    {
+        "question":"A customer has dietary restraints and cannot have sugar. Which of these drinks is the best option for them?",
+        "option1":"Black tea latte, 0% sugar level.", 
+        "option2":"Signature milk tea, 0% sugar level.",
+        "option3":"Mango green tea, 0% sugar level.",
+        "option4":"Honey milk tea",
+        "answer":1
+    },
+    {
+        "question":"Do you need a shift lead to approve a refund for any reason?", 
+        "option1":"If you know how to, you can just process the refund.", 
+        "option2":"We do not offer refunds.",
+        "option3":"No, a shift lead doesn't need to be there to approve any refunds made.",
+        "option4":"Yes, a shift lead will need to approve any refunds made.", 
+        "answer":4
+    },
+    {
+        "question":"Do we allow customers to mix flavors?",
+        "option1":"Yes, a customer can pick as many different flavors as they’d like to add to any drink.", 
+        "option2":"No, we only offer drinks that are available on our menu.",
+        "option3":"If you know the customer is a regular, you can let them mix any flavors they’d like.",
+        "option4":"Yes, we can modify our drinks based on what customers want.",
+        "answer":2
+    },
+    {
+        "question":"Select the answer that has our tea options listed in order of most caffeine to least caffeine.", 
+        "option1":"Signature, black tea, green tea.",
+        "option2":"Matcha, green tea, signature", 
+        "option3":"Black tea, signature, green tea.", 
+        "option4":"Green tea, black tea, signature.", 
+        "answer":1
+    }
 ];
