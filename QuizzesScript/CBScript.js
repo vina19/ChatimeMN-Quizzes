@@ -91,7 +91,7 @@ function setWrong() {
 }
 
 function finalScore() {
-	if(score > 8) {
+	if(score >= 8) {
 		result.innerHTML = "Congrats! You passed! <br/> Your score is " + score + "!";
 	}
 	else {
